@@ -6,7 +6,7 @@ Rules were as follow:
 * Must be playable on a mobile phone
 * Must be multiplayer but serverless
 
-So I did a port of So Clover! which is a board game where players are expected to use words associations to guess the correct position and rotation of 4 tiles containing 4 words (+ a random intruder).
+So I did a mobile port of [So Clover!](https://www.rprod.com/fr/games/so-clover) which is a board game where players are expected to use words associations to guess the correct position and rotation of 4 tiles containing 4 words (+ a random intruder).
 
 https://github.com/user-attachments/assets/8c9f93f1-c204-4e08-a444-b24a744e2c29
 
