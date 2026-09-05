@@ -1,5 +1,5 @@
 import {Game, WordTile,TileSlot } from "./system.js";
-import {DictLoader} from ".dictloader.js";
+import {DictLoader} from "./dictloader.js";
 import {Random, rangeFromZeroTo, StyleSetter} from "./utils.js";
 import {LocalMemory} from "./storage.js";
 
