@@ -1,11 +1,15 @@
 This is the original code I submitted for a Game Jam organized with friends as a challenge in early 2024.
 
+
 Rules were as follow: 
 * 48h total dev time
 * Must be playable on a mobile phone
 * Must be multiplayer but serverless
 
 So I did a port of So Clover! which is a board game where players are expected to use words associations to guess the correct position and rotation of 4 tiles containing 4 words (+ a random intruder).
+
+https://github.com/user-attachments/assets/8c9f93f1-c204-4e08-a444-b24a744e2c29
+
 
 50% of the dev time has been dedicated to building my own dictionary of words and tiles by using a small custom Node.js program, sqlite3 and the French [lexique383 database](http://www.lexique.org/databases/Lexique383/). Which was very inefficient but using the ones from the original boardgame felt like stealing, so I'd make the same decision today.
 
