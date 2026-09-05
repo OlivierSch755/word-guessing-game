@@ -3,7 +3,7 @@ import {DictLoader} from "./dictloader.js";
 import {Random, rangeFromZeroTo, StyleSetter} from "./utils.js";
 import {LocalMemory} from "./storage.js";
 
-import interact from 'https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js'
+import interact from "https://cdn.jsdelivr.net/npm/interactjs/+esm";
 
 
 
