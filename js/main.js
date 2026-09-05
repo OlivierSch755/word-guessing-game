@@ -6,10 +6,10 @@ document.getElementById("game").addEventListener("submit", (e)=>{
 
 const params = Object.fromEntries(new URLSearchParams(window.location.search));
 if(params.g){
-	const p2 = await import("/js/player2.js");
+	const p2 = await import("player2.js");
 }
 else{
-	const p1 = await import("/js/player1.js");
+	const p1 = await import("player1.js");
 }
 
 
