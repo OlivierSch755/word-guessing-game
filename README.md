@@ -16,8 +16,11 @@ So I did a mobile port of [So Clover!](https://www.rprod.com/fr/games/so-clover)
 https://github.com/user-attachments/assets/8c9f93f1-c204-4e08-a444-b24a744e2c29
 
 
-As it was made to fit in a static web page, there is a [github page demo](https://oliviersch755.github.io/word-guessing-game/#gamewindow) available.
+As it was made to fit in a static web page, there is a github page demo available. 
 
+Be my player 2 and solve [my word puzzle](https://oliviersch755.github.io/word-guessing-game/?g=c8_L1DHQMdAxNjTTMdQxBrONTE10DMEsAx1DcxMdYyjP2MRcx1DHCKoeRJroBCcfXpGXqhNSlJhZUpSq45helJlcmlNSWpSq41SUn5yYV5IKAA#gamewindow). 
+
+Or be player 1 and send [your own puzzle](https://oliviersch755.github.io/word-guessing-game) to a friend. 
 
 
 ## Time distribution 
