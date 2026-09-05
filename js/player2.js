@@ -3,7 +3,7 @@ import {DictLoader} from "/js/dictloader.js";
 import {Random, rangeFromZeroTo, StyleSetter} from "/js/utils.js";
 import {LocalMemory} from "/js/storage.js";
 
-import "/js/interact/interact.min.js";
+import interact from 'https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js'
 
 
 
@@ -246,7 +246,6 @@ class TileSlotPlayer2 extends TileSlot{
 		wordsTile.i = this.index;
 		wordsTile.setAttribute("i", this.index);
 		wordsTile.updateTileSlotTransform();
-		// StyleSetter.setMatrix(wordsTile,"--transform-tile", wordsTile.tileMatrix);
 	
 		// Lost TileSlot can stack WordsTiles
 		if(!this.isLost){
@@ -268,7 +267,6 @@ class TileSlotPlayer2 extends TileSlot{
 	cycleWordsTiles(){
 		const last = this.wordsTiles.pop();
 		this.wordsTiles.unshift(last);
-		// this.wordsTiles.at(-1)?.setLastMoved();
 		this.reorganizeWordsTiles();
 	}
 	
