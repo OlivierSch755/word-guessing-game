@@ -1,7 +1,7 @@
-import {Game, WordTile,TileSlot } from "/js/system.js";
-import {DictLoader} from "/js/dictloader.js";
-import {Random, rangeFromZeroTo, StyleSetter} from "/js/utils.js";
-import {LocalMemory} from "/js/storage.js";
+import {Game, WordTile,TileSlot } from ".system.js";
+import {DictLoader} from ".dictloader.js";
+import {Random, rangeFromZeroTo, StyleSetter} from "./utils.js";
+import {LocalMemory} from "./storage.js";
 
 import interact from 'https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js'
 

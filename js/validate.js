@@ -1,4 +1,4 @@
-import {DictLoader} from "/js/dictloader.js";
+import {DictLoader} from "./dictloader.js";
 
 
 class InvalidParameterException extends Error {

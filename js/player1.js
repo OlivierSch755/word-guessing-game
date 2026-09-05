@@ -1,6 +1,6 @@
-import {Game, WordTile,TileSlot } from "/js/system.js";
-import {DictLoader} from "/js/dictloader.js";
-import {Random, rangeFromZeroTo} from "/js/utils.js";
+import {Game, WordTile,TileSlot } from "./system.js";
+import {DictLoader} from "./dictloader.js";
+import {Random, rangeFromZeroTo} from "./utils.js";
 
 
 

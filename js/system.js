@@ -1,6 +1,6 @@
-import {Compressor} from "/js/compressor.js";
-import {DictLoader,DictEntry} from "/js/dictloader.js";
-import {Validate} from "/js/validate.js";
+import {Compressor} from "./compressor.js";
+import {DictLoader,DictEntry} from "./dictloader.js";
+import {Validate} from "./validate.js";
 
 
 class Game {

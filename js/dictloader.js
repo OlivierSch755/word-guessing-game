@@ -1,4 +1,4 @@
-import {rangeFromZeroTo} from "/js/utils.js";
+import {rangeFromZeroTo} from "./utils.js";
 
 
 class MissingWordEntryException extends Error {
