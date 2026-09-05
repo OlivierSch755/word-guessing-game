@@ -129,7 +129,7 @@ customElements.define("words-tile", WordTile);
 
 const link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = '/css/player1.css?a=1';
+link.href = './css/player1.css?a=1';
 document.head.appendChild(link);
 
 

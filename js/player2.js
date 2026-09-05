@@ -486,7 +486,7 @@ class Player2WordsTileV2 extends WordTile{
 
 const link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = '/css/player2.css';
+link.href = './css/player2.css';
 document.head.appendChild(link);
 
 document.body.classList.remove("player1");

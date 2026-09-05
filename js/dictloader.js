@@ -17,7 +17,7 @@ class DictLoader{
 	static async getIndex(){
 		if(this.index) return this.index;
 	
-		const loader = fetch("../dict/index.json")
+		const loader = fetch("./dict/index.json")
 		.then( req => req.json() )
 		.then(resp=>{
 			this.ArrayIndex = Object.values(resp.dictionaries).reduce( (D,dict,index)=>{
@@ -118,7 +118,7 @@ class DictEntry{
 		
 	}
 	
-	
+
 	async validate(){
 		const arrayIndex = await DictLoader.getArrayIndex();
 		if ( undefined === arrayIndex[this.dict][this.page][this.index] ){
