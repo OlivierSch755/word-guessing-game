@@ -41,7 +41,7 @@ class DictLoader{
 
 
 	
-	static baseURI = "../dict";
+	static baseURI = "./dict";
 	
 	static cache = {};
 
