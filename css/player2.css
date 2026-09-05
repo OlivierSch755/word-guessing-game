@@ -1,0 +1,26 @@
+span#attempts_counter {
+    position: absolute;
+    padding: 5px;
+    right: 0;
+    bottom: 0;
+    background: #454545;
+    font-size: 2em;
+    line-height: 1em;
+    border-left: solid 2px;
+    border-top: solid 1px;
+    border-top-left-radius: 10px;
+    display: block!important;
+    color: #ffffff;
+}
+
+
+
+words-tile.attempted_before {
+    background: #952c2c;
+}
+
+
+words-tile.victory{
+	background:green;
+	pointer-events:none;
+}

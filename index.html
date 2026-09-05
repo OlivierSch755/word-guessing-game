@@ -1,0 +1,96 @@
+<!Doctype HTML>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="preload" href="css/words.css" as="style">
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+		<link rel="icon" href="favicon.svg" type="image/svg+xml">
+	</head>
+
+	<body>
+	
+	<div class="scroller">
+		
+		<section id="home">
+			<h1>Titre</h1>
+			<p>
+				Blablabla Texte de bienvenue et règles du jeu
+				
+			</p>
+			<a href="/">Nouvelle partie</a>
+			
+			<a id="jump2game" href="#gamewindow">Aller directement au jeu.</a>
+		</section>
+		
+		<section class="window" id="gamewindow"></section>
+		
+		<div id="linkshare_popup">
+			<div class="wrapper">
+				<a id="linkshareanchor" href="#">Partage ce lien avec l'autre joueur</a>
+				<br>
+				<br>
+				<a id="linkshareanchor-sms" href="#">Partager par SMS</a>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	
+	
+	<form class="flex" id="game">
+		<div class="tiles">
+		
+			<div id="user_top" class="tile player1 top"></div>
+			<div id="user_right" class="tile player1 right"></div>
+			<div id="user_bottom" class="tile player1 bottom"></div>
+			<div id="user_left" class="tile player1 left"></div>
+			
+			<tile-slot id="lost" index="0">
+				<words-tile symetry class="no-transition"></words-tile>
+				<words-tile symetry class="no-transition"></words-tile>
+				<words-tile symetry class="no-transition"></words-tile>
+				<words-tile symetry class="no-transition"></words-tile>
+				<words-tile symetry class="no-transition"></words-tile>
+			</tile-slot>
+			<tile-slot id="tile1" index="1"></tile-slot>
+			<tile-slot id="tile2" index="2"></tile-slot>
+			<tile-slot id="tile3" index="3"></tile-slot>
+			<tile-slot id="tile4" index="4"></tile-slot>
+			
+			
+			<button type="button" class="tile" id="reroll" style="padding: 0;" onclick="window.location.reload()">
+				Reroll
+			</button>
+			
+			<button class="tile menu" style="padding: 0;">
+				<span id="attempts_counter">0</span>
+				 <svg viewBox="-5 0 100 100" style="display: block;fill: none;stroke: green;stroke-width: 1em;stroke-linecap: round;width: 100%;height: auto;">
+				  <path d="M10 70 L30 80 L80 20"></path>
+				</svg>
+			</button>
+		</div>
+	</form>
+	
+	<template id="WORDS">
+			<style>@import url("css/words.css");</style>
+			<div class="word w1"><span class="wrap"><span class="text">WORD 1</span></span></div>
+			<div class="word w2"><span class="wrap"><span class="text">WORD 2</span></span></div>
+			<div class="word w3"><span class="wrap"><span class="text">WORD 3</span></span></div>
+			<div class="word w4"><span class="wrap"><span class="text">WORD 4</span></span></div>
+			<svg viewBox="0 0 100 100">
+				<path class="p1"/>
+				<path class="p2"/>
+				<path class="p3"/>
+				<path class="p4"/>
+			</svg>
+	</template>
+	
+		
+			
+	<script type="module" src="js/main.js"></script>	
+
+</body></html>

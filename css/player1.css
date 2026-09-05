@@ -1,0 +1,21 @@
+input.p1input {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+
+
+tile-slot#lost > *{
+	display:none;
+}
+
+
+button#reroll {
+    grid-area: lost;
+	display:block;
+	pointer-events:all;
+	z-index:99;
+}
