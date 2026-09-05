@@ -38,6 +38,7 @@ As this is the original code it has many issues:
 * The home page where I planned to write the rules of the game has not been written.
 * Most special characters will be rejected for player 1.
 * Also the dictionary of tiles, in addition to having been crafted in a tiny amount of time (= is not great) has not been completely sanitized. So one should expect to find an occasional swear-word.
+* Ui is not very resize friendly (requires re-scroll and triggers some unwanted animations)
 
 I'll also have to make some tiny modifications to make it fit in a Github page. 
 
